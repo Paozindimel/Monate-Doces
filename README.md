@@ -1,4 +1,4 @@
-# DoceCusto
+# MonateDoces
 
 MVP acadêmico de formação de custos para confeitaria.
 

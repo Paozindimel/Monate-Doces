@@ -905,3 +905,125 @@ footer {
     font-size: 26px;
   }
 }
+
+/* =========================
+   LOGIN
+========================= */
+
+.login-page {
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 30px 20px;
+  background:
+    radial-gradient(circle at 10% 10%, rgba(255, 216, 61, 0.16), transparent 28%),
+    radial-gradient(circle at 90% 90%, rgba(255, 216, 61, 0.12), transparent 28%),
+    #fffdf3;
+}
+
+.login-card {
+  width: 100%;
+  max-width: 420px;
+  padding: 36px;
+  background: #ffffff;
+  border: 1px solid #eadcae;
+  border-radius: 22px;
+  box-shadow: 0 10px 35px rgba(58, 36, 21, 0.10);
+  text-align: center;
+}
+
+.login-logo {
+  display: block;
+  width: 150px;
+  height: 150px;
+  object-fit: contain;
+  margin: 0 auto 20px;
+}
+
+.login-card h1 {
+  margin: 0 0 8px;
+  color: #3a2415;
+  font-size: 28px;
+  font-weight: 800;
+}
+
+.login-card > p {
+  margin: 0 0 28px;
+  color: #8a7562;
+}
+
+.login-card form {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  text-align: left;
+}
+
+.login-card label {
+  display: flex;
+  flex-direction: column;
+  gap: 7px;
+  color: #4b3422;
+  font-size: 13px;
+  font-weight: 700;
+}
+
+.login-card input {
+  width: 100%;
+  border: 1px solid #ddcfa4;
+  border-radius: 10px;
+  padding: 12px 13px;
+  background: #fffef9;
+  font: inherit;
+  font-size: 14px;
+  color: #3a2415;
+  outline: none;
+  transition: 0.2s ease;
+}
+
+.login-card input:focus {
+  border-color: #e5b900;
+  box-shadow: 0 0 0 3px rgba(255, 216, 61, 0.2);
+}
+
+.login-card button {
+  width: 100%;
+  border: 0;
+  border-radius: 10px;
+  padding: 12px 16px;
+  margin-top: 4px;
+  background: #ffd83d;
+  color: #3a2415;
+  font: inherit;
+  font-weight: 800;
+  cursor: pointer;
+  transition: 0.2s ease;
+}
+
+.login-card button:hover {
+  background: #f6c900;
+  transform: translateY(-1px);
+}
+
+.login-card button:disabled {
+  opacity: 0.6;
+  cursor: not-allowed;
+}
+
+.login-card .error {
+  margin: 0;
+  font-size: 13px;
+  text-align: left;
+}
+
+@media (max-width: 500px) {
+  .login-card {
+    padding: 28px 22px;
+  }
+
+  .login-logo {
+    width: 120px;
+    height: 120px;
+  }
+}

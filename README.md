@@ -1,23 +1,46 @@
 # Monate Doces — DoceCusto
 
-Sistema web desenvolvido para auxiliar no gerenciamento de custos e na precificação de produtos de confeitaria.(Minha)
+Sistema web desenvolvido para auxiliar no gerenciamento de custos, organização e planejamento de produtos de confeitaria.
 
 ## Sobre o projeto
 
-O DoceCusto permite cadastrar insumos, embalagens e gastos indiretos, além de relacionar esses custos aos produtos para facilitar o cálculo e a análise dos preços de venda.
+O DoceCusto foi desenvolvido com o objetivo de facilitar meu planejamento na produção e comercialização de doces, permitindo organizar os custos dos ingredientes, embalagens, gastos indiretos e produtos em um único lugar.
+
+A aplicação busca tornar mais simples o acompanhamento dos custos e a análise dos preços, ajudando no planejamento dos doces e na tomada de decisões relacionadas à produção e às vendas.
 
 ## Funcionalidades
 
 * Cadastro e gerenciamento de insumos
-* Cadastro de embalagens e gastos indiretos
+* Cadastro de embalagens
+* Cadastro de gastos indiretos
 * Cadastro de produtos
 * Associação de custos aos produtos
-* Cálculo de custos e preços
+* Cálculo e análise dos custos
 * Simulação de produção e venda
-* Autenticação de usuários
-* Interface web responsiva
+* Autenticação de usuário
+* Interface para gerenciamento dos dados
 
-## Tecnologias
+## Banco de dados
+
+Os dados utilizados no projeto foram alimentados a partir de informações que eu já possuía em uma planilha de controle dos meus doces.
+
+Além da importação e organização dos dados no banco de dados, também utilizei a própria interface do DoceCusto para realizar cadastros, alterações e gerenciamento das informações.
+
+Dessa forma, o projeto foi desenvolvido não apenas como uma aplicação acadêmica, mas também pensando em uma utilização prática para facilitar a organização e o planejamento dos produtos.
+
+## Login
+
+O acesso ao sistema é protegido por autenticação.
+
+Para entrar na aplicação, é necessário utilizar:
+
+**E-mail:** Monatedoces@gmail.com
+
+**Senha:** abracadabra
+
+Os dados de acesso podem ser alterados conforme necessário.
+
+## Tecnologias utilizadas
 
 * React
 * Vite
@@ -29,8 +52,12 @@ O DoceCusto permite cadastrar insumos, embalagens e gastos indiretos, além de r
 
 ## Objetivo
 
-O projeto foi desenvolvido como parte acadêmica, aplicando conceitos de desenvolvimento web, componentes, gerenciamento de dados, integração com banco de dados e publicação de aplicações.
+O principal objetivo do projeto é centralizar as informações relacionadas aos doces e seus custos, facilitando o planejamento da produção, a organização dos dados e a análise dos preços.
 
-## Acesso
+O sistema foi desenvolvido como projeto acadêmico, mas também foi pensado para solucionar uma necessidade real de organização e controle do negócio.
 
-A aplicação está hospedada na Vercel e o código-fonte está disponível neste repositório.
+## Desenvolvimento
+
+O projeto foi desenvolvido utilizando componentes reutilizáveis, integração com banco de dados e autenticação de usuários.
+
+Os dados podem ser consultados e gerenciados diretamente pela interface da aplicação, permitindo que o sistema seja utilizado de forma mais prática no dia a dia.

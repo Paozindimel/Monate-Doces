@@ -1,35 +1,36 @@
-# MonateDoces
+# Monate Doces — DoceCusto
 
-MVP acadêmico de formação de custos para confeitaria.
+Sistema web desenvolvido para auxiliar no gerenciamento de custos e na precificação de produtos de confeitaria.(Minha)
+
+## Sobre o projeto
+
+O DoceCusto permite cadastrar insumos, embalagens e gastos indiretos, além de relacionar esses custos aos produtos para facilitar o cálculo e a análise dos preços de venda.
+
+## Funcionalidades
+
+* Cadastro e gerenciamento de insumos
+* Cadastro de embalagens e gastos indiretos
+* Cadastro de produtos
+* Associação de custos aos produtos
+* Cálculo de custos e preços
+* Simulação de produção e venda
+* Autenticação de usuários
+* Interface web responsiva
 
 ## Tecnologias
-- React + Vite
-- React Router
-- Supabase / PostgreSQL
-- CSS + Flexbox
-- GitHub + Vercel
 
-## Requisitos demonstrados
-- Componentização pai/filho
-- Props
-- `.map()` com `key`
-- `useState` e `onClick`
-- Navegação SPA
-- Formulários e CRUD de itens
-- Persistência no Supabase
-- Cálculo proporcional de custos
-- Simulação de produção, faturamento, lucro e margem
+* React
+* Vite
+* JavaScript
+* Supabase
+* CSS
+* GitHub
+* Vercel
 
-## Rodar localmente
-```bash
-npm install
-npm run dev
-```
+## Objetivo
 
-Crie `.env.local` com:
-```env
-VITE_SUPABASE_URL=...
-VITE_SUPABASE_PUBLISHABLE_KEY=...
-```
+O projeto foi desenvolvido como parte acadêmica, aplicando conceitos de desenvolvimento web, componentes, gerenciamento de dados, integração com banco de dados e publicação de aplicações.
 
-Execute `supabase/schema.sql` no SQL Editor do Supabase antes de usar o CRUD.
+## Acesso
+
+A aplicação está hospedada na Vercel e o código-fonte está disponível neste repositório.

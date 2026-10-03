@@ -22,7 +22,7 @@ A aplicação busca tornar mais simples o acompanhamento dos custos e a análise
 
 ## Banco de dados
 
-Os dados utilizados no projeto foram alimentados a partir de informações que eu já possuía em uma [planilha]([monatedoces@gmail.com](https://docs.google.com/spreadsheets/d/1ElXVOQHdR83JRbyIentdLgjNxr5CJEx76ouKhgtmq1w/edit?gid=0#gid=0)) de controle dos meus doces.
+Os dados utilizados no projeto foram alimentados a partir de informações que eu já possuía em uma [planilha]([url](https://docs.google.com/spreadsheets/d/1ElXVOQHdR83JRbyIentdLgjNxr5CJEx76ouKhgtmq1w/edit?gid=0#gid=0)) de controle dos meus doces.
 
 Além da importação e organização dos dados no banco de dados, também utilizei a própria interface do DoceCusto para realizar cadastros, alterações e gerenciamento das informações.
 

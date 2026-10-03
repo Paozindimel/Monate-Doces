@@ -48,7 +48,7 @@ export default function Login() {
 
         <h1>Acesso restrito</h1>
 
-        <p>Entre para acessar o DoceCusto.</p>
+        <p>Entre para acessar o Monate Doces.</p>
 
         <form onSubmit={handleLogin}>
           <label>

@@ -41,14 +41,6 @@ Para entrar na aplicação, é necessário utilizar:
 
 Os dados de acesso podem ser alterados conforme necessário.
 
-## Sugestão para teste
-
-Caso queira testar o funcionamento do sistema, uma sugestão é escolher um dos produtos disponíveis na planilha e tentar cadastrá-lo, utilizando os mesmos ingredientes e quantidades.
-
-A planilha possui fórmulas que calculam os custos de forma automática. Por isso, é possível comparar o valor de custo apresentado na planilha com o resultado calculado pelo sistema.
-
-Essa comparação também serve para verificar se os dados foram cadastrados corretamente e se os cálculos realizados estão de acordo com a lógica utilizada na planilha.
-
 
 ## Dificuldades encontradas e melhorias futuras
 

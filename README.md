@@ -41,6 +41,15 @@ Para entrar na aplicação, é necessário utilizar:
 
 Os dados de acesso podem ser alterados conforme necessário.
 
+## Sugestão para teste
+
+Caso queira testar o funcionamento do sistema, uma sugestão é escolher um dos produtos disponíveis na planilha e tentar cadastrá-lo no DoceCusto, utilizando os mesmos ingredientes e quantidades.
+
+A planilha possui fórmulas que calculam os custos de forma automática. Por isso, é possível comparar o valor de custo apresentado na planilha com o resultado calculado pelo sistema.
+
+Essa comparação também serve para verificar se os dados foram cadastrados corretamente e se os cálculos realizados pelo DoceCusto estão de acordo com a lógica utilizada na planilha.
+
+
 ## Dificuldades encontradas e melhorias futuras
 
 Durante o desenvolvimento do projeto, uma das principais dificuldades foi alimentar o banco de dados com as informações da planilha. Alguns itens possuíam nomes iguais ou muito semelhantes, mas eram utilizados em produtos diferentes. Foi necessário organizar e diferenciar esses nomes para evitar conflitos e facilitar a identificação dos itens dentro do sistema.

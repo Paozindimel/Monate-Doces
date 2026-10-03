@@ -4,7 +4,7 @@ Sistema web desenvolvido para auxiliar no gerenciamento de custos, organização
 
 ## Sobre o projeto
 
-O DoceCusto foi desenvolvido com o objetivo de facilitar meu planejamento na produção e comercialização de doces, permitindo organizar os custos dos ingredientes, embalagens, gastos indiretos e produtos em um único lugar.
+O Monate foi desenvolvido com o objetivo de facilitar meu planejamento na produção e comercialização de doces, permitindo organizar os custos dos ingredientes, embalagens, gastos indiretos e produtos em um único lugar.
 
 A aplicação busca tornar mais simples o acompanhamento dos custos e a análise dos preços, ajudando no planejamento dos doces e na tomada de decisões relacionadas à produção e às vendas.
 
@@ -72,3 +72,12 @@ O sistema foi desenvolvido como projeto acadêmico, mas também foi pensado para
 O projeto foi desenvolvido utilizando componentes reutilizáveis, integração com banco de dados e autenticação de usuários.
 
 Os dados podem ser consultados e gerenciados diretamente pela interface da aplicação, permitindo que o sistema seja utilizado de forma mais prática no dia a dia.
+
+## Considerações finais
+
+Gostei bastante de desenvolver e implementar este projeto, principalmente por poder transformar uma necessidade real de organização dos meus doces em uma aplicação funcional.
+
+Durante o desenvolvimento, encontrei algumas dificuldades e tive que adaptar algumas ideias, mas também consegui aprender bastante com o processo. Pretendo continuar aprimorando o DoceCusto, principalmente na parte de criação e organização dos produtos.
+
+Espero que o resultado demonstre todo o esforço e aprendizado envolvidos no desenvolvimento do projeto e que você goste da implementação.
+

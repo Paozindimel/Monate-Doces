@@ -56,6 +56,15 @@ Durante o desenvolvimento do projeto, uma das principais dificuldades foi alimen
 
 Outra dificuldade encontrada foi adaptar a estrutura dos produtos para a aplicação. A planilha possui uma organização específica, com os ingredientes, quantidades, receitas, embalagens e custos apresentados de uma determinada forma. Durante o desenvolvimento, ainda não consegui reproduzir completamente essa mesma organização dentro da interface do aplicativo.
 
+Outra dificuldade que encontrei foi transformar algumas receitas da planilha em dados individuais dentro do aplicativo.
+
+Por exemplo, no caso do brownie, o produto utiliza uma determinada quantidade de massa. Porém, essa massa é preparada como uma receita maior, composta por vários ingredientes, e possui um rendimento de vários brownies. Dessa forma, o custo da massa não corresponde diretamente a apenas um brownie, sendo necessário considerar o rendimento da receita para descobrir quanto daquela massa é utilizado e qual é o custo correspondente a cada unidade.
+
+Esse mesmo conceito acontece com outros produtos que utilizam massas, recheios ou preparações que rendem várias porções. Adaptar essa lógica da planilha para uma estrutura de banco de dados e para a interface do aplicativo foi uma das partes mais trabalhosas do desenvolvimento.
+
+Pretendo continuar aprimorando essa parte do sistema para que seja possível cadastrar uma receita com seus ingredientes, informar o rendimento e fazer com que o sistema calcule automaticamente o custo da quantidade utilizada em cada produto.
+
+
 Por esse motivo, deixei a planilha utilizada como referência disponível no link apresentado na página inicial do projeto. A intenção é continuar desenvolvendo o sistema para que a criação e o gerenciamento dos produtos fiquem cada vez mais próximos da forma como as informações são organizadas na planilha.
 
 Essas melhorias fazem parte da continuidade do projeto, buscando tornar o MonateDoces mais completo, organizado e prático para o planejamento dos doces.
